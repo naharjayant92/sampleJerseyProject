@@ -27,7 +27,7 @@ mimepull-1.9.6.jar
 
 Sample URL: http://localhost:7001/jersey2/rest/message/testPost
 Webserver used: Weblogic
-Sample input of failing request
+Sample input of failing request :
 **{
   "body": {
     "inputs": [
