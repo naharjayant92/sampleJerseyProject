@@ -53,14 +53,10 @@ Sample URL: http://localhost:7001/jersey2/rest/message/testPost
 Webserver used: Weblogic
 
 Sample input of failing request :
-
-{
-
+[ {
 "body": {
-
 "inputs": [
 {
-
   "propertyValues": [
           {
 
@@ -69,8 +65,7 @@ Sample input of failing request :
             "values": [
             
                   "提交应标"
-            
-            ]
+           ]
           
           }
         
@@ -82,7 +77,7 @@ Sample input of failing request :
   
   }
 
-}
+}]
 
 Expected Response: Hello World æ��äº¤åº”æ ‡
 
