@@ -1,0 +1,18 @@
+package main.jersey;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+
+import main.model.SaveModel;
+
+@Path("/message")
+public class JerseyService
+{
+    @Path("/testPost")
+    @POST
+    public String getMsg( SaveModel saveModel )
+    {
+        String chineseChar = saveModel.getBody().getInputs().get( 0 ).getPropertyValues().get( 0 ).getValues().get( 0 );
+        return "Hello World " + chineseChar;
+    }
+}
