@@ -55,35 +55,20 @@ Webserver used: Weblogic
 Sample input of failing request :
 
 {
-
 "body": {
-
-"inputs": 
-[
-
-    {
-
-      "propertyValues": [
+    "inputs": [
         {
-
-        "name": "chineseChar",
-
-        "values": [
-
-              "提交应标"
-
+          "propertyValues": [
+            {
+            "name": "chineseChar",
+            "values": [
+                  "提交应标"
+              ]
+            }
           ]
-
         }
-
-      ]
-
-    }
-
-    ]
-
+     ]
   }
-
 }
 
 
