@@ -1,10 +1,15 @@
 This is the sample project to reproduce issue I'm getting for Chinese character on Weblogic server. The characters in the request are getting corrupted before hitting the end point.
 
 I have used below list of jar files to run this project-
+
 hk2-api-2.5.0-b32.jar
+
 hk2-locator-2.5.0-b32.jar
+
 hk2-utils-2.5.0-b32.jar
+
 jackson-annotations-2.13.4.jar
+
 jackson-core-2.13.4.jar
 jackson-databind-2.13.4.2.jar
 jackson-jaxrs-base-2.13.4.jar
