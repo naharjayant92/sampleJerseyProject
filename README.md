@@ -53,12 +53,13 @@ Sample URL: http://localhost:7001/jersey2/rest/message/testPost
 Webserver used: Weblogic
 
 Sample input of failing request :
-[
+
 {
 
 "body": {
 
-"inputs": [
+"inputs": 
+[
 
     {
 
@@ -84,7 +85,8 @@ Sample input of failing request :
   }
 
 }
-]
+
+
 Expected Response: Hello World æ��äº¤åº”æ ‡
 
 Actual Response: Hello World 提交应标
