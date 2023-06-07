@@ -53,34 +53,35 @@ Sample URL: http://localhost:7001/jersey2/rest/message/testPost
 Webserver used: Weblogic
 
 Sample input of failing request :
+
 {
 
 "body": {
 
 "inputs": [
 
-{
+    {
 
-"propertyValues": [
-{
+      "propertyValues": [
+        {
 
-"name": "chineseChar",
+        "name": "chineseChar",
 
-"values": [
+        "values": [
 
-"提交应标"
+              "提交应标"
 
-]
+          ]
 
-}
+        }
 
-]
+      ]
 
-}
+    }
 
-]
+    ]
 
-}
+  }
 
 }
 
